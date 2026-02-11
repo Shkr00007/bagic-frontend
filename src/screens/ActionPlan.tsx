@@ -324,7 +324,7 @@ type ActionItem = {
   completed: boolean;
 };
 
-export default function ActionPlan() {
+export function ActionPlan() {
   const { profile } = useAuth();
   const [actions, setActions] = useState<ActionItem[]>([]);
   const [newAction, setNewAction] = useState('');

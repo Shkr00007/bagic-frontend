@@ -1203,7 +1203,7 @@ import { useEffect, useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useCoaching } from '../contexts/CoachingContext';
 
-export default function OpsConsole() {
+export function OpsConsole() {
   const { profile } = useAuth();
   const { activeSession } = useCoaching();
 

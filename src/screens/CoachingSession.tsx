@@ -428,7 +428,7 @@
 import { useState } from 'react';
 import { useCoaching } from '../contexts/CoachingContext';
 
-export default function CoachingSession() {
+export function CoachingSession() {
   const {
   activeSession,
   startSession,
